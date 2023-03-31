@@ -23,8 +23,8 @@ public class Bitis1 extends AppCompatActivity {
         String can = getIntent().getStringExtra("can");
         String puan = getIntent().getStringExtra("puan");
 
-        tasarim.tvC.setText("Kalan Can Sayınız: "+can);
-        tasarim.tvP.setText("Kazandığınız Puan: "+puan);
+        tasarim.tvC.setText("Kalan Can Sayınız: " + can);
+        tasarim.tvP.setText("Kazandığınız Puan: " + puan);
 
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button);
         tasarim.bAS.startAnimation(animation);
