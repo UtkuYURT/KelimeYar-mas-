@@ -20,7 +20,7 @@ public class Bitis2 extends AppCompatActivity {
         tasarim = ActivityBitis2Binding.inflate(getLayoutInflater());
         setContentView(tasarim.getRoot());
 
-        String puan = getIntent().getStringExtra("puan");
+        String puan = getIntent().getStringExtra( "puan");
         tasarim.textViewP.setText("Kazandığınız Puan: " + puan);
 
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button);
